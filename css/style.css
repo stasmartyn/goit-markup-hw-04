@@ -443,3 +443,10 @@ footer {
 .img-portfolio-list:nth-child(-n + 3) {
   margin-top: 0;
 }
+
+.list-icon-contact {
+  width: 32px;
+  display: flex;
+  height: 32px;
+  fill: #212121;
+}
