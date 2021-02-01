@@ -41,8 +41,10 @@ a {
 }
 .container {
   box-sizing: border-box;
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -87,10 +89,8 @@ header {
 .navigation {
   margin: 0;
   display: flex;
-  margin-top: 32px;
   list-style-type: none;
   padding-left: 0;
-  margin-bottom: 32px;
 }
 .list-anchor {
   margin-left: 50px;
@@ -105,6 +105,9 @@ header {
   letter-spacing: 0.02em;
   text-decoration: none;
   font-weight: 500;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-anchor:hover {
@@ -146,6 +149,8 @@ header {
 /* section hero  */
 
 .section-my-hero {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 94px;
   max-width: 1600px;
   background-image: linear-gradient(
@@ -400,6 +405,7 @@ footer {
   color: var(--white);
   margin-top: 0;
   margin-bottom: 0;
+  font-style: normal;
 }
 .content-groop {
   display: flex;
@@ -522,6 +528,9 @@ footer {
   margin-top: 0;
   padding-bottom: 94px;
   margin-bottom: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+  width: 1200px;
 }
 .img-portfolio-list {
   border: 1px solid var(--border-button-color);
