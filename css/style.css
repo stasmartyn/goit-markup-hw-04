@@ -42,7 +42,7 @@ a {
 .container {
   box-sizing: border-box;
   width: 1200px;
-  margin: 0 auto;
+
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -216,7 +216,6 @@ header {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--white);
-  margin-bottom: 94px;
 }
 .title-details {
   width: 270px;
@@ -230,11 +229,12 @@ header {
 .list-details-descr {
   display: flex;
   padding-left: 0;
+  margin: 0;
 }
 
 .list-text {
   width: 270px;
-  height: 75px;
+
   margin-right: 30px;
   list-style-type: none;
 }
