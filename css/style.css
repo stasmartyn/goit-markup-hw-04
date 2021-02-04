@@ -56,15 +56,15 @@ a {
 /* LOGO */
 .logo {
   width: 145px;
-  height: 31px;
+
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   color: var(--txt-title-color);
   text-decoration: none;
   font-family: var(--logo-font);
-
-  margin-top: 24px;
+  padding-bottom: 24px;
+  padding-top: 24px;
   margin-right: 43px;
   cursor: pointer;
 }
@@ -97,6 +97,7 @@ header {
 }
 
 .nav-anchor {
+  display: block;
   color: var(--txt-title-color);
   width: 68px;
   height: 16px;
@@ -105,7 +106,6 @@ header {
   letter-spacing: 0.02em;
   text-decoration: none;
   font-weight: 500;
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -153,22 +153,16 @@ header {
 .section-my-hero {
   margin-left: auto;
   margin-right: auto;
-
+  height: 600px;
   max-width: 1600px;
+  padding-bottom: 200px;
+  padding-top: 200px;
   background-image: linear-gradient(
       var(--hero-gradient-color),
       var(--hero-gradient-color)
     ),
     url("../img/img-hero-baner.png");
   background-size: cover;
-}
-
-.hero-baner {
-  padding: 200px 452px 280px 452px;
-
-  box-sizing: border-box;
-  width: 1600px;
-  height: 600px;
 }
 
 .hero-descr {
@@ -219,7 +213,7 @@ header {
 }
 .title-details {
   width: 270px;
-  height: 16px;
+
   margin-top: 0;
   margin: 0;
   font-weight: 700px;
@@ -237,6 +231,9 @@ header {
 
   margin-right: 30px;
   list-style-type: none;
+}
+.list-text:last-child {
+  margin-right: 0;
 }
 .text-compani {
   margin-top: 10px;
@@ -477,22 +474,6 @@ footer {
 
 /* section portfolio work */
 
-.nav-anchor {
-  color: var(--txt-title-color);
-  width: 68px;
-  height: 16px;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.nav-anchor:hover {
-  color: var(--txt-title-color);
-  color: var(--logo-color);
-}
-
 .button-portfolio {
   margin-bottom: 20px;
 }
@@ -544,6 +525,9 @@ footer {
   box-sizing: border-box;
   width: 1200px;
 }
+.portfolio-descr-position {
+  padding-bottom: 20px;
+}
 .img-portfolio-list {
   border: 1px solid var(--border-button-color);
   box-sizing: border-box;
@@ -551,7 +535,6 @@ footer {
   margin-top: 20px;
   list-style-type: none;
   text-align: left;
-  padding-bottom: 20px;
 }
 
 .img-portfolio-list:hover,
@@ -623,9 +606,6 @@ footer {
   align-items: center;
   display: flex;
   box-sizing: border-box;
-}
-
-.vector-img-section-descr {
 }
 
 .descr-text-img {
