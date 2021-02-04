@@ -161,7 +161,7 @@ header {
       var(--hero-gradient-color),
       var(--hero-gradient-color)
     ),
-    url("../img/img-hero-baner.png");
+    url("../img/hero-baner.png");
   background-size: cover;
 }
 
